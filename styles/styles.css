@@ -36,7 +36,7 @@ header nav ul li{
 .hero-parent{
     background-image: url(/assets/banner.jpg);
     background-size: cover;
-    height: 786px;
+    height: 884px;
     width: 1551px;
     display: flex;
     flex-direction: column;
@@ -61,9 +61,58 @@ header nav ul li{
    
 }
 .hero-parent button{
-    margin: 310px;
-    padding:15px 50px;
+    margin: 350px;
+    padding:20px 50px;
     font-size: 15px;
     
 }
+/*speakers section*/
+.speakers{
+    height: 1250px;
+    width: 1323px;
+    margin: auto;
+}
+.speakers-heading{
+    display: flex;
+    justify-content: center;
+    padding: 80px 56px;
+    height: 65px;
+    width: 900px;
+    margin: auto;
+}
+.speakers-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+
+}
+.common-card img{
+    border-radius: 8px;
+    
+}
+.common-card{
+    height: 460px;
+    width: 644px;
+}
+.role{
+    font-size: 10px;
+    color: rgb(37, 99, 235);
+    padding: 15px 0px 10px;
+}
+.position{
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+    padding: 10px 0px 0px;
+}
+/*pricing-section*/
+.pricing{
+    height: 718px;
+    width: 1551px;
+}
+
+
+
+
+
+
    
