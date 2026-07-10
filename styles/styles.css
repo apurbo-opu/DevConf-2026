@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+    /*header section*/
 .common-btn{
     background-color: rgb(66, 66, 255);
     color: white;
@@ -17,6 +18,8 @@ gap: 300px;
 margin: auto;
 padding: 20px;
 background-color: rgb(255, 255, 255);
+position: sticky;
+top: 0;
 
 
 }
@@ -29,3 +32,38 @@ header nav ul{
 header nav ul li{
     text-decoration: none;
 }
+/*Hero section*/
+.hero-parent{
+    background-image: url(/assets/banner.jpg);
+    background-size: cover;
+    height: 786px;
+    width: 1551px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+
+   
+}
+.hero-parent p{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+   
+
+}
+.hero-parent h1{
+    font-size: 90px;
+    margin: 0px;
+    padding: 200px 0px 0px 0px;
+   
+}
+.hero-parent button{
+    margin: 310px;
+    padding:15px 50px;
+    font-size: 15px;
+    
+}
+   
