@@ -74,11 +74,21 @@ header nav ul li{
 }
 .speakers-heading{
     display: flex;
-    justify-content: center;
+   align-items: center;
+   justify-content: center;
     padding: 80px 56px;
     height: 65px;
     width: 900px;
     margin: auto;
+}
+.speakers-heading h1{
+    font-size: 40px;
+    display: inline-block;
+}
+.speakers-heading p{
+      font-size: 15px;
+    color: rgb(87, 87, 87);
+
 }
 .speakers-cards{
     display: grid;
@@ -87,12 +97,17 @@ header nav ul li{
 
 }
 .common-card img{
-    border-radius: 8px;
+    width: 644px;
+    border-radius: 10px 10px 0 0;
+    
+    
     
 }
 .common-card{
     height: 460px;
     width: 644px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .role{
     font-size: 10px;
@@ -104,15 +119,94 @@ header nav ul li{
     color: rgb(87, 87, 87);
     padding: 10px 0px 0px;
 }
-/*pricing-section*/
+/*pricing section*/
 .pricing{
-    height: 718px;
-    width: 1551px;
+    height: 668px;
+    width: 1440px;
+    margin: auto;
+}
+.pricing-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: auto auto;
+   padding: 50px;
+}
+.pricing-heading p{
+    padding-top: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2px auto;
+    height: 444px;
+    width: 1160px;
 }
 
-
-
-
-
+.common-cards{
+    text-align: left;
+    border: 2px solid rgb(229, 231, 235);
+    border-radius: 15px;
+    margin: 0 5px;
+    padding: 30px;
+    height: 444px;
+    width: 370.66px;
+}
+.pricing-pro{
+    background-color: rgb(13, 27, 42);
+    color: white;
+}
+.common-cards .pricing-cards-button{
+    height: 45px;
+    width: 304.66px;
+    color: balck;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.common-cards .pro-button{
+    border: none;
+    background-color: rgb(37, 99, 235);
+    color: white;
+}
+.common-cards .standard-button{
+   border: 2px solid rgb(37, 99, 235);
+   color: rgb(37, 99, 235);
+}
+.pricing-packages-name{
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    margin-bottom: 2px;
+}
+.common-cards .pro-packages{
+    color: rgb(147, 197, 253);
+}
+.packages-price{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.packages-limit{
+    font-size: 15px;
+    color: rgb(134, 141, 149);
+}
+.pricing-hr{
+    margin: 15px auto;
+    border: 1px solid rgb(229, 231, 235);
+}
+.common-cards ul li{
+    margin: 8px auto;
+}
+ul li::marker{
+  color: rgb(66, 66, 255);
+}
+.common-cards ul{
+    margin: 50px auto;
+}
 
    
