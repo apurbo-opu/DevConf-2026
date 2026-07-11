@@ -34,7 +34,7 @@ header nav ul li{
 }
 /*-------Hero section----------*/
 .hero-parent{
-    background-image: url(/assets/banner.jpg);
+    background-image: url(../assets/banner.jpg);
     background-size: cover;
     height: 884px;
     width: 1551px;
